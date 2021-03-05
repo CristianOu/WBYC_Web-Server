@@ -17,7 +17,8 @@ import java.util.Map;
 @CrossOrigin(origins = {
         "http://localhost:8081",
         "http://localhost:3000",
-        "https://wbyc-web-client.herokuapp.com"
+        "https://wbyc-web-client.herokuapp.com",
+        "https://wbyc-webclient.herokuapp.com"
 })
 @RestController
 @RequestMapping("/recipes")
